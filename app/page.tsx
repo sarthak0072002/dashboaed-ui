@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import Dashboard from "@/components/dashboard";
 
 export default function Home() {
+
+ 
   return (
-    <div>
-      hello
+    <div className="w-screen h-screen">
+      <Dashboard/>
     </div>
   )
 }
